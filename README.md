@@ -78,31 +78,7 @@ the mentioned preprocessed features.
 *****************************************************************************
 HYPERPARAMETER TUNING:
 
-* After tuning the hyperparameters of combinedModel, The following values were found
-to be performing best,
-			* activation= "tanh"	
-			* optimizer = SGD(learning_rate=0.00006, momentum=0.27)			
-			* dropout_rate = 0.2
-			* kernel_initializer = "uniform"
-			* kernel_constraint = max_norm(2.98)
-			* epochs = 27
-			* batch_size = 31
-
-* After tuning the hyperparameters of battingModel, The following values were found to
-be performing best,	
-			* activation="tanh"
-			* optimizer = SGD(learning_rate=0.000068, momentum=0.28)
-			* dropout_rate = 0.22
-			* kernel_initializer = "uniform"
-			* kernel_constraint = min_max_norm(0.15, 3.4)
-			* epochs = 17
-			* batch_size = 18
-
-* After tuning hyperparameters of elasticNet model, The following values were found to
-be performing best,
-			* max_iter = 15
-			* alpha = 0.001
-			* l1_ratio = 1
+* Hyperparameters of the above models after tuning will be shared once the competition is over.
 
 *****************************************************************************
 TRAINING MODELS WITH PREPROCESSED DATA:
