@@ -1,3 +1,6 @@
+# the code won't work for now because I did not shared any model files since the competition is ongoing
+# will update the model files and code for creating them once the competition is over
+
 from tensorflow.keras.models import load_model
 from tensorflow import convert_to_tensor, float64
 import pandas as pd
@@ -106,5 +109,5 @@ def predictRuns(testInput):
     return prediction
 
 
-# replace testInput.csv with actual path
-print("Predicted Runs : ", predictRuns("testInput.csv"))
+# replace sample_input_format.csv with actual path
+print("Predicted Runs : ", predictRuns("sample_input_format.csv"))
